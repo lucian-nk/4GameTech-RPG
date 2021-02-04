@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule (.*)\.png$ signature.php?user=$1					
+				
